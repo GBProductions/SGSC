@@ -1,4 +1,4 @@
-export class Age {
+export default class Age {
   constructor (earth, earthLifeExpectancy) {
     this.earth = earth;
     this.earthLifeExpectancy = earthLifeExpectancy;
@@ -27,4 +27,16 @@ export class Age {
     jupiterLifeExpectancy() {
       this.jupiterlife = (this.earthLifeExpectancy * 0.24) - (this.earth * 11.86)
     }
-    
+    mercuryLifePast() {
+      this.mercurylife = Math.abs((this.earthLifeExpectancy * 0.24)) - (this.earth * 0.24)
+    }
+    venusLifePast() {
+      this.venuslife = Math.abs((this.earthLifeExpectancy * 0.62) - (this.earth * 0.62))
+    }
+    marsLifePast() {
+      this.marslife = Math.abs((this.earthLifeExpectancy * 1.88) - (this.earth * 1.88))
+    }
+    jupiterLifePast() {
+      this.jupiterlife = Math.abs((this.earthLifeExpectancy * 11.86) - (this.earth * 11.86))
+    }
+}
