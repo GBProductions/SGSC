@@ -1,0 +1,26 @@
+{
+  "name": "sgsc",
+  "version": "1.0.0",
+  "description": "#### _{Brief description of application}, November 13th 2020_",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GBProductions/SGSC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GBProductions/SGSC/issues"
+  },
+  "homepage": "https://github.com/GBProductions/SGSC#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
