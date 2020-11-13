@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(), 
     new HtmlWebpackPlugin({
-      title: 'Space-Calculator',
+      title: 'sgsc',
       template: './src/index.html',
       inject: 'body'
     })
