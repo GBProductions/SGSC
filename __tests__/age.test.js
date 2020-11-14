@@ -66,22 +66,22 @@ describe('Age', () => {
     expect(age.mercurylife).toEqual(12);
   })
 
-  // test('should return number of years lived past Venus life expectancy', () => {
-  //   const age = new Age(100, 200);
-  //   age.mercuryLifePast()
-  //   expect(age.mercurylife).toEqual();
-  // })
+  test('should return number of years lived past Venus life expectancy', () => {
+    const age = new Age(150, 100);
+    age.venusLifePast()
+    expect(age.venuslife).toEqual(31);
+  })
 
   // test('should return number of years lived past Mars life expectancy', () => {
-  //   const age = new Age(100, 200);
-  //   age.mercuryLifePast()
-  //   expect(age.mercurylife).toEqual();
+  //   const age = new Age(150, 100);
+  //   age.marsLifePast()
+  //   expect(age.marslife).toEqual();
   // })
 
   // test('should return number of years lived past Jupiter life expectancy', () => {
-  //   const age = new Age(100, 200);
-  //   age.mercuryLifePast()
-  //   expect(age.mercurylife).toEqual();
+  //   const age = new Age(150, 100);
+  //   age.jupiterLifePast()
+  //   expect(age.jupiterlife).toEqual();
   // })
 
 });
