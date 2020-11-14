@@ -28,7 +28,7 @@ export class Age {
     this.jupiterlife = (this.earthLifeExpectancy * 11.86) - (this.earth * 11.86);
   }
   mercuryLifePast() {
-    this.mercurylife = Math.abs((this.earthLifeExpectancy * 0.24)) - (this.earth * 0.24);
+    this.mercurylife = Math.abs((this.earthLifeExpectancy * 0.24) - (this.earth * 0.24));
   }
   venusLifePast() {
     this.venuslife = Math.abs((this.earthLifeExpectancy * 0.62) - (this.earth * 0.62));
