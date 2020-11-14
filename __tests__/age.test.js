@@ -24,11 +24,11 @@ describe('Age', () => {
     expect(age.venus).toEqual(62)
   })
 
-  // test('should take user age in Earth years and return in Mars years', () => {
-  //   const age = new Age(100);
-  //   age.marsAge()
-  //   expect(age.mars).toEqual()
-  // })
+  test('should take user age in Earth years and return in Mars years', () => {
+    const age = new Age(100);
+    age.marsAge()
+    expect(age.mars).toEqual(188)
+  })
 
   // test('should take user age in Earth years and return in Jupiter years', () => {
   //   const age = new Age(100);
