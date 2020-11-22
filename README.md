@@ -11,13 +11,13 @@ _As of Nov. 22nd, 2020, this program is backend only, with no plans to build a f
 
 ## Specs
 
-# **Conversions**
+# *Conversions*
 * _1 Mercury year = 0.24 Earth years_
 * _1 Venus year = 0.62 Earth years_
 * _1 Mars year = 1.88 Earth years_
 * _1 Jupiter year = 11.86 years_
 
-# **User Statements**
+# *User Statements*
 * _The user should be able to enter 10 years on Earth and return 2.4 years on Mercury._
 * _The user should be able to enter 10 years on Earth and return 6.2 years on Venus._
 * _The user should be able to enter 10 years on Earth and return 18.8 years on Mars._
