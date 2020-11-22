@@ -9,6 +9,32 @@ _A calculator that can take in a person's lived life and life expectancy on Eart
 
 _As of Nov. 22nd, 2020, this program is backend only, with no plans to build a functioning UI._
 
+## Specs
+
+# **Conversions**
+* _1 Mercury year = 0.24 Earth years_
+* _1 Venus year = 0.62 Earth years_
+* _1 Mars year = 1.88 Earth years_
+* _1 Jupiter year = 11.86 years_
+
+# **User Statements**
+* _The user should be able to enter 10 years on Earth and return 2.4 years on Mercury._
+* _The user should be able to enter 10 years on Earth and return 6.2 years on Venus._
+* _The user should be able to enter 10 years on Earth and return 18.8 years on Mars._
+* _The user should be able to enter 10 years on Earth and return 118.6 years on Jupiter._
+* _The user should be able to enter their life expectancy on Earth._
+
+* _Assuming a Earth life expectancy (ELE) of 20 years on Earth, the user should be able to enter 10 years on Earth and return 2.4 years left to live on Mercury._
+* _Assuming a (ELE) of 20 years, the user should be able to enter 10 years on Earth and return 6.2 years left to live on Venus._
+* _Assuming a (ELE) of 20 years, the user should be able to enter 10 years on Earth and return 18.8 years left to live on Mars._
+* _Assuming a (ELE) of 20 years, the user should be able to enter 10 years on Earth and return 118.6 years left to live on Jupiter._
+
+* _Assuming a (ELE) of 20 years, and a Earth lived life (ELL) of 30 years, the user should be able to learn that they have lived 2.4 years over the Mercury LE._
+* _Assuming a (ELE) of 20 years, and a lived life (ELL) of 30 years, the user should be able to learn that they have lived 6.2 years over the Venus life expectancy._
+* _Assuming a (ELE) of 20 years, and a lived life (ELL) of 30 years, the user should be able to learn that they have lived 18.8 years over the Mars life expectancy._
+* _Assuming a (ELE) of 20 years, and a lived life (ELL) of 30 years, the user should be able to learn that they have lived 118.6 years over the Jupiter life expectancy._
+
+
 ## Setup/Installation Requirements
 
 * _Open terminal._
