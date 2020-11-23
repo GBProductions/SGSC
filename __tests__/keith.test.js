@@ -13,7 +13,8 @@ describe('Keith', () => {
   });
   test('should return Keith Richards age in the year 2073, in dog years, in Jupiter years', () => {
     const keith = new Keith(130);
-    keith.dogYears.jupiter()
-    expect(keith.Jupiter).toEqual();
+    keith.dogYears();
+    keith.jupiter();
+    expect(keith.jupiter).toEqual(10792.6);
   });
 });
