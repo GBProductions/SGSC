@@ -1,4 +1,4 @@
-import { Keith } from './../src/keith.js';
+import { Keith } from '../src/js/keith.js';
 
 describe('Keith', () => {
 
