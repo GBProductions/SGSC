@@ -4,7 +4,7 @@ describe('Keith', () => {
 
   test('should return Keith Richards age in Earth years in the year 2073', () => {
     const keith = new Keith(130);
-    expect(keith.earth).toEqual();
+    expect(keith.earth).toEqual(130);
   });
   // test('should return Keith Richards age in the year 2073, in dog years', () => {
   //   const age = new Age(130);
