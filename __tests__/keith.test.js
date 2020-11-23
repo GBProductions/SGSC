@@ -3,8 +3,8 @@ import { Keith } from './../src/keith.js';
 describe('Keith', () => {
 
   test('should return Keith Richards age in Earth years', () => {
-    const age = Age()
-    expect().toEqual()
+    const age = Age(130)
+    expect(age.earth).toEqual(130)
   })
 
   test('should return Keith Richards age in Earth years in the year 2073', () => {
@@ -21,10 +21,4 @@ describe('Keith', () => {
     const age = Age()
     expect().toEqual()
   })
-
-
-
-  test('should return life expectancy in Earth years', () => {
-    const age = new Age(100,200);
-    expect(age.earthLifeExpectancy).toEqual(200);
-  })
+});
