@@ -84,3 +84,5 @@ describe('Age', () => {
     expect(age.jupiterlife).toEqual(593);
   })
 });
+
+10792.6

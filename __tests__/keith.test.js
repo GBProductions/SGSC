@@ -11,8 +11,9 @@ describe('Keith', () => {
     keith.dogYears()
     expect(keith.dogyears).toEqual(910);
   });
-  // test('should return Keith Richards age in the year 2073, in dog years, in Jupiter years', () => {
-  //   const age = new Age(130);
-  //   expect(age.Jupiter).toEqual(10792.6);
-  // });
+  test('should return Keith Richards age in the year 2073, in dog years, in Jupiter years', () => {
+    const keith = new Keith(130);
+    keith.dogYears.jupiter()
+    expect(keith.Jupiter).toEqual();
+  });
 });
